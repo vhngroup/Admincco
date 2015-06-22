@@ -1,0 +1,609 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AdminContratos
+</name>
+</assembly>
+<members>
+<member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbDecrypt">
+	<summary>
+ Descifra la base de datos mientras se compacta.
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbEncrypt">
+	<summary>
+ Cifra la base de datos.
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion10">
+	<summary>
+ Motor de base de datos Microsoft Jet versión 1.0.
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion11">
+	<summary>
+ Motor de base de datos Microsoft Jet versión 1.1.
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion120">
+	<summary>
+ Motor de base de datos Microsoft Access 12.0 (Access 2007).
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion140">
+	<summary>
+ Motor de base de datos Microsoft Access 14.0 (Access 2010).
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion150">
+	<summary>
+ Motor de base de datos Microsoft Access 15.0 (Access 2013).
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion20">
+	<summary>
+ Motor de base de datos Microsoft Jet versión 2.0.
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion30">
+	<summary>
+ Motor de base de datos Microsoft Jet versión 3.0 (Access 95-97).
+ </summary>
+</member><member name="F:WindowsApplication1.Module3.AccessDatabaseTypeEnum.dbVersion40">
+	<summary>
+ Motor de base de datos Microsoft Jet versión 4.0 (Access 2000-2003).
+ </summary>
+</member><member name="T:WindowsApplication1.Module3.AccessDatabaseTypeEnum">
+	<summary>
+ Enumeración para la versión de la base de datos Microsoft Access.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Module3.CompactDataBase(System.String,System.String,System.String,System.String,WindowsApplication1.Module3.AccessDatabaseTypeEnum)">
+	<summary>
+ Compacta una base de datos Microsoft Accesss.
+ </summary>
+	<param name="source">Base de datos que se desea compactar.</param>
+	<param name="pwdSource">Contraseña de la base de datos de origen.</param>
+	<param name="destiny">Base de datos de destino de la compactación.</param>
+	<param name="pwdDestiny">Contraseña de la base de datos de destino.</param>
+	<param name="version">Versión de la base de datos compactada.</param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Module3.CreateObject(System.String,System.Type@)">
+	<summary>
+ Crea y devuelve una referencia al objeto COM especificado.
+ </summary>
+	<param name="progId">Nombre correspondiente al ProgId del objeto COM que se desea obtener.</param>
+	<param name="ty">Se devolverá el tipo asociado al identificador de programa especificado.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication1.Module3.ExecuteMethod(System.Object,System.Type,System.String,System.Object[])">
+	<summary>
+ Ejecuta el método del objeto COM especificado.
+ </summary>
+	<param name="app">Instancia del objeto COM cuya método se desea ejecutar.</param>
+	<param name="ty">El tipo asociado al programa especificado.</param>
+	<param name="methodName">Nombre del método que se desea ejecutar.</param>
+	<param name="args">Matriz que contiene los argumentos que se van
+ a pasar al método que se desea ejecutar.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:WindowsApplication1.Module3">
+	<summary>
+ Módulo para la compactación de bases de datos
+ Microsoft Access mediante reflexión.
+ </summary>
+	<author>Enrique Martínez Montejo - 2010</author>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AFEODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AreasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesaprobadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CampoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreCMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMNuevosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMOriginalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.DisciplinaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.disciplina2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.EstadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.estadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.FacilidadesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Facilidades1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ListaproveedoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.MaestrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSOriginalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.otrosiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.PannerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ServiciosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.spadminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AFEODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AreasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesaprobadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CampoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreCMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMNuevosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMOriginalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.DisciplinaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.disciplina2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.EstadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.estadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.FacilidadesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Facilidades1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ListaproveedoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.MaestrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSOriginalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.otrosiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.PannerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ServiciosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.spadminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AFEODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.AreasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.avancesaprobadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CampoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreCMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CierreODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMNuevosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.CMOriginalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.DisciplinaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.disciplina2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.EstadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.estadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.FacilidadesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Facilidades1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ListaproveedoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.MaestrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ODSOriginalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.otrosiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.PannerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.Seguridad4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.ServiciosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet.spadminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.AdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.AFEODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.AreasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.avancesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.avancesaprobadosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.CampoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.CierreCMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.CierreODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.CMNuevosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.CMOriginalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.DisciplinaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.disciplina2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.EstadoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.estadosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.FacilidadesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.Facilidades1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.ListaproveedoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.MaestrosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.ODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.ODSOriginalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.otrosiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.PannerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.Seguridad2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.Seguridad4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.ServiciosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.spadminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.Adminco_MasterDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.Adminco_MasterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.Adminco_MasterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.Adminco_MasterDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.Adminco_MasterDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSet.PersonasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSet.PersonasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSet.PersonasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.PersonasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.Stadistic_AdminccoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.Stadistic_AdminccoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.Stadistic_AdminccoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.Stadistic_AdminccoDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.Stadistic_AdminccoDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
