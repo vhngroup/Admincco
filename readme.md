@@ -33,8 +33,7 @@ A continuación se relacionan algunos roles de acceso actuales.
 ##Capturas Pantalla
 ![Panel Principal de Opcciones](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco2.png)
 ![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
-![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
-![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo4.png)
+![Modulo Creación Modificación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo4.png)
 
 
 ## Development setup
