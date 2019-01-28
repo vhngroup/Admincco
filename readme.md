@@ -6,7 +6,7 @@ Admincco ha sido personalizada de acuerdo con los requerimientos del grupo de Ad
 Usa la metodología cliente – servidor, permitiendo que múltiples usuarios puedan realizar transacciones o procesos al mismo tiempo, lo que permite tener información en tiempo real.
 
 
-![Settings Window](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco.png)
+![Panel de Acceso Login](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco.png)
 
 ## Installation
 
@@ -17,10 +17,12 @@ Doble Clic Setup.exe
 ```
 
 ## Usage example
+### Diagrama secuencia de autorización
+![Secuencia Logica Contrato Marco](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo.png)
+![Secuencia Logica Orden de Servicio](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo2.png)
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
