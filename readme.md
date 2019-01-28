@@ -8,7 +8,7 @@ Usa la metodología cliente – servidor, permitiendo que múltiples usuarios pu
 
 ![Panel de Acceso Login](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco.png)
 
-## Installation
+## Instalación
 
 Windows:
 ```sh
@@ -16,12 +16,26 @@ Carpeta: bin/Debug/app.publish/
 Doble Clic Setup.exe
 ```
 
-## Usage example
+## Ejemplo de uso
 ### Diagrama secuencia de autorización
 ![Secuencia Logica Contrato Marco](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo.png)
 ![Secuencia Logica Orden de Servicio](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo2.png)
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+### Acceso, Roles y Funciones
+AdminCCo  esta parametrizado de acuerdo a los roles y niveles de autorización que los usuarios tienen en los contratos a ejecutar, de acuerdo a ello, se habilitan o se deshabilitan las opciones y permisos a los que cada usuario tiene acceso. 
+A continuación se relacionan algunos roles de acceso actuales.
+#### SPADMIN Soporte Administrativo de  contrato
+#### Administrador
+#### Coordinador análisis financiero
+#### Solicitante Orden de servicio
+#### Admin - Administrador de la herramienta
+
+##Capturas Pantalla
+![Panel Principal de Opcciones](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco2.png)
+
+
+
+
 
 
 ## Development setup
