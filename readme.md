@@ -24,18 +24,17 @@ Doble Clic Setup.exe
 ### Acceso, Roles y Funciones
 AdminCCo  esta parametrizado de acuerdo a los roles y niveles de autorización que los usuarios tienen en los contratos a ejecutar, de acuerdo a ello, se habilitan o se deshabilitan las opciones y permisos a los que cada usuario tiene acceso. 
 A continuación se relacionan algunos roles de acceso actuales.
-#### SPADMIN Soporte Administrativo de  contrato
-#### Administrador
-#### Coordinador análisis financiero
-#### Solicitante Orden de servicio
-#### Admin - Administrador de la herramienta
+> SPADMIN Soporte Administrativo de  contrato
+> Administrador
+> Coordinador análisis financiero
+> Solicitante Orden de servicio
+> Admin - Administrador de la herramienta
 
 ##Capturas Pantalla
 ![Panel Principal de Opcciones](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco2.png)
-
-
-
-
+![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
+![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
+![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo4.png)
 
 
 ## Development setup
