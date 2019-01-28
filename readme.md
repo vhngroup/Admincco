@@ -35,47 +35,33 @@ A continuación se relacionan algunos roles de acceso actuales.
 ![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
 ![Modulo Creación Modificación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo4.png)
 ![Modulo Creación Orden de Servicio](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo5.png)
-![Modulo de Reportes](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo5.png)
+![Modulo de Reportes](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo6.png)
 
-## Development setup
+## Dependencias necesarias.
+[Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
+[Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/es-co/download/details.aspx?id=30653)
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+## Datos tecnicos
 
-```sh
-make install
-npm test
-```
+* Versión Actual: AdminContratos_1_1_0_181 publicada hace 2 meses
+* Fase de desarrollo: Versión Beta Estable, lanzada el 19/03/2014 para 273 BetaTester
+* Programado en : VB.net
+* Motor Base de Datos: SQL Server 2012
+* Tipo de aplicación: Aplicación en Red
+* Sistema Operativo : Windows Vista, Windows 7, Windows 8, y Windows 8.1
+* Plataforma: Intel x86 - 32-bit y x64
+* Licencia: Software propietario
+* Estado Actual: Activo
+* Idioma: Español
 
-## Release History
+## Datos de Contacto
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+Victor Noguera – [@victor__noguera](https://twitter.com/victor__noguera) – info@vhngroup.com
 
-## Meta
+Distribuido bajo licencia MIT. Ver ``LICENSE`` para mas información.
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+[https://github.com/vhngroup/Admincco](https://github.com/vhngroup/Admincco)
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
