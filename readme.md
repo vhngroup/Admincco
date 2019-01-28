@@ -38,9 +38,9 @@ A continuación se relacionan algunos roles de acceso actuales.
 ![Modulo de Reportes](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo6.png)
 
 ## Dependencias necesarias.
-[Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
-[Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
-[Microsoft .NET Framework 4.5](https://www.microsoft.com/es-co/download/details.aspx?id=30653)
+* [Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
+* [Sap crystal reports for visual studio 2017 community](https://www.sap.com/latinamerica/products/crystal-visual-studio.html)
+* [Microsoft .NET Framework 4.5](https://www.microsoft.com/es-co/download/details.aspx?id=30653)
 
 ## Datos tecnicos
 
