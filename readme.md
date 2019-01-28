@@ -6,20 +6,14 @@ Admincco ha sido personalizada de acuerdo con los requerimientos del grupo de Ad
 Usa la metodología cliente – servidor, permitiendo que múltiples usuarios puedan realizar transacciones o procesos al mismo tiempo, lo que permite tener información en tiempo real.
 
 
-![](header.png)
+![Settings Window](https://github.com/vhngroup/Admincco/blob/master/Images/Captura_1_Admincco.png)
 
 ## Installation
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
 Windows:
-
 ```sh
-edit autoexec.bat
+Carpeta: bin/Debug/app.publish/
+Doble Clic Setup.exe
 ```
 
 ## Usage example
