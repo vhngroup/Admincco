@@ -35,7 +35,7 @@ A continuación se relacionan algunos roles de acceso actuales.
 ![Modulo Creación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo3.png)
 ![Modulo Creación Modificación Contrato Macro](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo4.png)
 ![Modulo Creación Orden de Servicio](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo5.png)
-
+![Modulo de Reportes](https://github.com/vhngroup/Admincco/blob/master/Images/Flujos_de_Trabajo5.png)
 
 ## Development setup
 
